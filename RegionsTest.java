@@ -6,17 +6,13 @@ import javax.swing.*;
 /**
  * Testing code for region finding in PS-1.
  * 
- * @author Chris Bailey-Kellogg, Dartmouth CS 10, Spring 2014
- * @author Travis W. Peters, Dartmouth CS 10, Updated Spring 2015
- * @author CBK, Spring 2015, updated for DrawingGUI
+ * @author Reed Levinson, Spring 2023
  */
 public class RegionsTest extends DrawingGUI {
 	private BufferedImage image;
 
 	/**
 	 * Test your RegionFinder by passing an image filename and a color to find.
-	 * @param filename
-	 * @param color
 	 */
 	public RegionsTest(String name, RegionFinder finder, Color targetColor) {
 		super(name, finder.getImage().getWidth(), finder.getImage().getHeight());

@@ -14,14 +14,6 @@ import static org.bytedeco.opencv.global.opencv_imgproc.*;
  * Class to handle webcam capture and processing, packaging up JavaCV stuff.
  * Subclasses can conveniently process webcam video by extending this and overriding the processImage methods.
  * Since it's an extension of DrawingGUI, they can also override draw(), handleMousePress(), etc.
- * 
- * @author Chris Bailey-Kellogg, Dartmouth CS 10, Spring 2014
- * @author Travis Peters, Dartmouth CS 10, Spring 2015 -- updated for JavaCV 0.10
- * @author CBK, Spring 2015, integrated with DrawingGUI
- * @author CBK, updated to JavaCV 1.1, Spring 2016
- * @author Tim Pierson, Dartmouth CS 10, Fall 2018, added check for Mac or Windows
- * @author Tim Pierson, Dartmouth CS 10, Fall 2019, updated to JavaCV 1.5.1
- *
  */
 public class Webcam extends DrawingGUI {
 	protected boolean mac = true;					// automatically set to true for mac, false otherwise

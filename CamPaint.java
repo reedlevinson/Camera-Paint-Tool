@@ -5,13 +5,9 @@ import java.util.ArrayList;
 import javax.swing.*;
 
 /**
- * Webcam-based drawing 
- * Scaffold for PS-1, Dartmouth CS 10, Fall 2016
+ * Webcam-based drawing
  * 
- * @author Chris Bailey-Kellogg, Spring 2015 (based on a different webcam app from previous terms)
- *
  * @author Reed Levinson, Spring 2023
- * @author Evan Lai, collaborated on a solution
  */
 public class CamPaint extends Webcam {
 	private char displayMode = 'w';			// what to display: 'w': live webcam, 'r': recolored image, 'p': painting
